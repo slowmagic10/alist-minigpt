@@ -1,0 +1,1 @@
+{"version":3,"file":"modal-body.d.ts","sourceRoot":"","sources":["modal-body.tsx"],"names":[],"mappings":"AAKA,OAAO,EAAE,WAAW,EAAE,aAAa,EAAE,MAAM,UAAU,CAAC;AAItD,oBAAY,cAAc,CAAC,CAAC,SAAS,WAAW,GAAG,KAAK,IAAI,aAAa,CAAC,CAAC,CAAC,CAAC;AAI7E;;GAEG;AACH,wBAAgB,SAAS,CAAC,CAAC,SAAS,WAAW,GAAG,KAAK,EAAE,KAAK,EAAE,cAAc,CAAC,CAAC,CAAC,kCAgChF;yBAhCe,SAAS"}
