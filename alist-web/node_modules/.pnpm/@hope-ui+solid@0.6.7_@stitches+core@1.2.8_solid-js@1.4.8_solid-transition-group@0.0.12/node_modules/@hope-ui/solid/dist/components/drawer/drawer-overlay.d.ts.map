@@ -1,0 +1,1 @@
+{"version":3,"file":"drawer-overlay.d.ts","sourceRoot":"","sources":["drawer-overlay.tsx"],"names":[],"mappings":"AAQA,OAAO,EAAE,WAAW,EAAE,aAAa,EAAE,MAAM,UAAU,CAAC;AAItD,oBAAY,kBAAkB,CAAC,CAAC,SAAS,WAAW,GAAG,KAAK,IAAI,aAAa,CAAC,CAAC,CAAC,CAAC;AAIjF;;GAEG;AACH,wBAAgB,aAAa,CAAC,CAAC,SAAS,WAAW,GAAG,KAAK,EAAE,KAAK,EAAE,kBAAkB,CAAC,CAAC,CAAC,kCAqBxF;yBArBe,aAAa"}

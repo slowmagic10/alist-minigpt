@@ -1,0 +1,1 @@
+{"version":3,"file":"background.d.ts","sourceRoot":"","sources":["background.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,gBAAgB,CAAC;AAEpD,eAAO,MAAM,UAAU;IACrB;;OAEG;gBACS,cAAc,YAAY,CAAC;;;;;IAEvC;;OAEG;qBACc,cAAc,iBAAiB,CAAC;;;;;CAClD,CAAC"}

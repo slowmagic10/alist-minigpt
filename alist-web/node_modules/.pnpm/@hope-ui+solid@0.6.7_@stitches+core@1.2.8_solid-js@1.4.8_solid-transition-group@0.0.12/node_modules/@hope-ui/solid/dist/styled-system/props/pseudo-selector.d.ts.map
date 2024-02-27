@@ -1,0 +1,1 @@
+{"version":3,"file":"pseudo-selector.d.ts","sourceRoot":"","sources":["pseudo-selector.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,mCAAmC,CAAC;AACnE,OAAO,EAAE,MAAM,EAAE,iBAAiB,EAAE,MAAM,UAAU,CAAC;AAErD;;GAEG;AACH,oBAAY,mBAAmB,GAAG,OAAO,CAAC;KACvC,CAAC,IAAI,MAAM,cAAc,GAAG,iBAAiB;CAC/C,CAAC,CAAC;AAEH,eAAO,MAAM,uBAAuB,EAAE,MAAM,CAAC,mBAAmB,CA0D/D,CAAC"}

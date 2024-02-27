@@ -1,0 +1,1 @@
+{"version":3,"file":"select-placeholder.d.ts","sourceRoot":"","sources":["select-placeholder.tsx"],"names":[],"mappings":"AAKA,OAAO,EAAE,WAAW,EAAE,aAAa,EAAE,MAAM,UAAU,CAAC;AAMtD,oBAAY,sBAAsB,CAAC,CAAC,SAAS,WAAW,GAAG,MAAM,IAAI,aAAa,CAAC,CAAC,CAAC,CAAC;AAEtF;;GAEG;AACH,wBAAgB,iBAAiB,CAAC,CAAC,SAAS,WAAW,GAAG,MAAM,EAC9D,KAAK,EAAE,sBAAsB,CAAC,CAAC,CAAC,kCAgBjC;yBAjBe,iBAAiB"}
