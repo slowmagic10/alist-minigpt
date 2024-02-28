@@ -26,10 +26,15 @@ GPT 图像描述技术： 结合 GPT 技术，对云盘中的图片进行智能�
 
 **2.构建前端**<br>
 ```bash 
-git clone --recurse-submodules https://github.com/alist-org/alist-web.git
-cd alist-web
+git clone https://github.com/slowmagic10/alist-minigpt.git
+cd alist-minigpt/alist-web
 ```
 执行 ```pnpm install``` && ```pnpm build``` 得到 dist 目录下的目标文件
+
+**3.构建后端**<br>
+```bash
+cd alist-minigpt/alist
+```
 
 
 ## Alist源码及文档
