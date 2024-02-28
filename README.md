@@ -14,7 +14,7 @@ GPT 图像描述技术： 结合 GPT 技术，对云盘中的图片进行智能�
 
 
 ## Alist源码及文档
-<https://github.com/alist-org/alist/tree/main>
+<https://github.com/alist-org/alist/tree/main><br>
 <https://alist.nn.ci/zh/>
 
 ## MiniGPT源码
