@@ -33,7 +33,8 @@ cd alist-minigpt/alist-web
 
 **3.构建后端**<br>
 ```bash
-cd alist-minigpt/alist
+cd ..
+cd alist
 ```
 
 
