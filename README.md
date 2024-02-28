@@ -19,6 +19,12 @@ GPT 图像描述技术： 结合 GPT 技术，对云盘中的图片进行智能�
 ![Description](./description.png)
 
 
+## 安装
+### Alist的下载安装
+**1.环境准备**
+首先，你需要一个有```bash git```，```bash nodejs```，```bash pnpm```，```bash golang>=1.20```，```bash gcc```的环境
+
+
 ## Alist源码及文档
 <https://github.com/alist-org/alist/tree/main><br>
 <https://alist.nn.ci/zh/>
