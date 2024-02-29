@@ -13,7 +13,7 @@ Alist 云盘整合： 利用 Alist 提供的云盘整合功能，将用户的云
 GPT 图像描述技术： 结合 GPT 技术，对云盘中的图片进行智能描述生成，为每张图片生成富有描述性的文本。
 关键词搜索： 提供基于关键词的图像搜索功能，使用户能够通过关键词快速定位所需图片。
 
-![Description](./description.png)
+![Description](./examples/description.png)
 
 
 ## 安装
