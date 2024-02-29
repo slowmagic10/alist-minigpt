@@ -96,7 +96,7 @@ conda activate minigptv
 
 
 在进化配置文件中设置预训练检查点的路径 
-in [eval_configs/minigptv2_eval.yaml](./MiniGPT-4/eval_configs/minigptv2_eval.yaml)在第8行。
+[eval_configs/minigptv2_eval.yaml](./MiniGPT-4/eval_configs/minigptv2_eval.yaml)在第8行。
 
 
 | MiniGPT-4 (Vicuna 13B) | MiniGPT-4 (Vicuna 7B) | MiniGPT-4 (LLaMA-2 Chat 7B) |
@@ -104,7 +104,12 @@ in [eval_configs/minigptv2_eval.yaml](./MiniGPT-4/eval_configs/minigptv2_eval.ya
 | [Download](https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view?usp=share_link) | [Download](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view?usp=sharing) | [Download](https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view?usp=sharing) |
 
 **4.设置MiniGPT访问的图片地址**
-
+Alist支持通过webdav访问文件<br>
+下载可以访问webdav的库
+```bash
+pip install webdavclient3
+```
+在[这里](./MiniGPT-4/alist.py#90)在第90行中设置自己的访问地址
 
 
 
