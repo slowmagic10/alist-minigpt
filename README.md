@@ -107,6 +107,7 @@ conda activate minigptv
 Alist支持通过webdav访问文件
 
 在[这里](./MiniGPT-4/alist.py#90)第89行中设置自己的访问地址
+在[这里](./MiniGPT-4//alist.py)第97行中设置自己的访问地址
 
 
 

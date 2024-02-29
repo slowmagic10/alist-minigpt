@@ -94,10 +94,18 @@ client = Client(options)
 
 def job():
     # 创建一个数据库连接
-    conn = sqlite3.connect('/home/nick/alist/data/data.db')
+    conn = sqlite3.connect('/home/nick/alist/data/data.db')#在这里设置Alist数据库的位置
+
     
     # 创建一个游标对象
     cur = conn.cursor()
+    cur.execute("PRAGMA table_info(x_search_nodes)")
+    columns = cur.fetchall()
+    description_column_exists = any(column[1] == 'description' for column in columns)
+
+    # 如果 'description' 列不存在，则执行添加
+    if not description_column_exists:
+        cur.execute("ALTER TABLE x_search_nodes ADD COLUMN description TEXT")
 
     # 查询满足条件的元素
     cur.execute("SELECT name FROM x_search_nodes WHERE name LIKE '%.jpg' AND description IS NULL")
