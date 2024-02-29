@@ -64,6 +64,47 @@ bash run.sh
 #### MiniGPT源码
 <https://github.com/Vision-CAIR/MiniGPT-4>
 
+**1.代码及环境准备**
+创建一个Python环境，然后通过以下命令激活它
+```bash
+cd MiniGPT-4
+conda env create -f environment.yml
+conda activate minigptv
+```
+
+
+**2.准备预训练的大模型权重**
+
+**MiniGPT-v2** 是基于Llama2 Chat 7B模型的。 
+通过使用 git-lfs 克隆存储库，从以下 Huggingface 空间下载相应的 LLM 权重。
+
+|                            Llama 2 Chat 7B                             |                                           Vicuna V0 13B                                           |                                          Vicuna V0 7B                                          |
+:------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:
+[Download](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main) | [Downlad](https://huggingface.co/Vision-CAIR/vicuna/tree/main) | [Download](https://huggingface.co/Vision-CAIR/vicuna-7b/tree/main) 
+
+然后，将模型配置文件中的变量*llama_model*设置为LLM权重路径。
+[here](minigpt4/configs/models/minigpt_v2.yaml#L15) at Line 14.
+
+
+**3. 准备预训练的模型检查点**
+
+下载预训练的模型检查点
+
+
+| MiniGPT-v2 (after stage-2) | MiniGPT-v2 (after stage-3) | MiniGPT-v2 (online developing demo)| 
+|------------------------------|------------------------------|------------------------------|
+| [Download](https://drive.google.com/file/d/1Vi_E7ZtZXRAQcyz4f8E6LtLh2UXABCmu/view?usp=sharing) |[Download](https://drive.google.com/file/d/1HkoUUrjzFGn33cSiUkI-KcT-zysCynAz/view?usp=sharing) | [Download](https://drive.google.com/file/d/1aVbfW7nkCSYx99_vCRyP1sOlQiWVSnAl/view?usp=sharing) |
+
+
+在进化配置文件中设置预训练检查点的路径 
+in [eval_configs/minigptv2_eval.yaml](eval_configs/minigptv2_eval.yaml#L10) at Line 8.
+
+
+
+| MiniGPT-4 (Vicuna 13B) | MiniGPT-4 (Vicuna 7B) | MiniGPT-4 (LLaMA-2 Chat 7B) |
+|----------------------------|---------------------------|---------------------------------|
+| [Download](https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view?usp=share_link) | [Download](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view?usp=sharing) | [Download](https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view?usp=sharing) |
+
 
 
 
