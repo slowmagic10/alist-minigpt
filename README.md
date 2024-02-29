@@ -38,6 +38,17 @@ cd alist
 bash run.sh
 ```
 
+**4.运行服务**<br>
+* 在Linux或Mac上运行
+```bash
+./alist server
+```
+
+* 在Windows上运行
+```bash
+./alist.exe server
+```
+
 
 ## Alist源码及文档
 <https://github.com/alist-org/alist/tree/main><br>
