@@ -103,9 +103,8 @@ conda activate minigptv
 |----------------------------|---------------------------|---------------------------------|
 | [Download](https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view?usp=share_link) | [Download](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view?usp=sharing) | [Download](https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view?usp=sharing) |
 
-**4.设置MiniGPT访问的图片地址**
-Alist支持通过webdav访问文件<br>
-下载可以访问webdav的库
+**4.设置MiniGPT访问的图片地址**<br>
+Alist支持通过webdav访问文件,下载支持访问webdav的库
 ```bash
 pip install webdavclient3
 ```
