@@ -36,6 +36,10 @@ cd alist-minigpt/alist-web
 cd ..
 cd alist
 ```
+将上一步的 ```dist``` 目录复制到项目下的 ```public``` 目录下，然后执行
+```bash
+bash run.sh
+```
 
 
 ## Alist源码及文档
