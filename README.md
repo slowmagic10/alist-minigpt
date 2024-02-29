@@ -50,6 +50,11 @@ bash run.sh
 ```
 ![Description](./examples/login.png)
 
+**5.构建索引**<br>
+登录后安装官方教程：```https://alist.nn.ci/zh/guide/drivers/common.html```挂载网盘<br>
+进入管理界面，选择索引为云盘文件添加索引
+![Description](./examples/索引.png)
+
 
 
 
