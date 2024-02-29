@@ -85,9 +85,8 @@ import time
 from PIL import Image
 from webdav3.client import Client
 
-# 创建WebDAV客户端
 options = {
-    'webdav_hostname': 'http://localhost:5244/dav',
+    'webdav_hostname': 'http://localhost:5244/dav',#在这里设置自己Alist的访问地址
     'webdav_login':    'admin',
     'webdav_password': 'admin'
 }
