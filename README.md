@@ -18,7 +18,7 @@ GPT 图像描述技术： 结合 GPT 技术，对云盘中的图片进行智能�
 
 ## 下载及配置
 ### Alist的下载及配置
-## Alist源码及文档
+#### Alist源码及文档
 <https://github.com/alist-org/alist/tree/main><br>
 <https://alist.nn.ci/zh/>
 **1.环境准备**<br>
@@ -60,7 +60,7 @@ bash run.sh
 
 
 ### MiniGPT-4的下载及配置
-## MiniGPT源码
+#### MiniGPT源码
 <https://github.com/Vision-CAIR/MiniGPT-4>
 
 
