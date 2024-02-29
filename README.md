@@ -83,13 +83,12 @@ conda activate minigptv
 [Download](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main) | [Downlad](https://huggingface.co/Vision-CAIR/vicuna/tree/main) | [Download](https://huggingface.co/Vision-CAIR/vicuna-7b/tree/main) 
 
 然后，将模型配置文件中的变量*llama_model*设置为LLM权重路径。
-[here](minigpt4/configs/models/minigpt_v2.yaml#L15) at Line 14.
+[here](minigpt4/configs/models/minigpt_v2.yaml#L15)在第14行。
 
 
 **3. 准备预训练的模型检查点**
 
 下载预训练的模型检查点
-
 
 | MiniGPT-v2 (after stage-2) | MiniGPT-v2 (after stage-3) | MiniGPT-v2 (online developing demo)| 
 |------------------------------|------------------------------|------------------------------|
@@ -97,8 +96,7 @@ conda activate minigptv
 
 
 在进化配置文件中设置预训练检查点的路径 
-in [eval_configs/minigptv2_eval.yaml](eval_configs/minigptv2_eval.yaml#L10) at Line 8.
-
+in [eval_configs/minigptv2_eval.yaml](eval_configs/minigptv2_eval.yaml#L10)在第8行。
 
 
 | MiniGPT-4 (Vicuna 13B) | MiniGPT-4 (Vicuna 7B) | MiniGPT-4 (LLaMA-2 Chat 7B) |
